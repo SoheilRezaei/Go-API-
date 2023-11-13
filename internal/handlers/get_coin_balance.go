@@ -44,7 +44,7 @@ func GetCoinBalance(w http.ResponseWriter, r *http.Request) {
 		Code: http.StatusOK,
 	}
 
-	w.header().Set("Content-Type","application/json")
+	w.Header().Set("Content-Type","application/json")
 	err = json.NewEncoder(w).Encode(response)
 	if err != nil {
 		log.Error(err)
