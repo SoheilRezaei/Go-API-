@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/soheilrezaei/go-api-/api"
-	"github.com/soheilrezaei/go-api-/internal/tools"
+	"github.com/SoheilRezaei/Go-API-/api"
+	"github.com/SoheilRezaei/Go-API-/internal/tools"
 	log "github.com/sirupsen/logrus"
 	"github.com/gorilla/schema"
 )
