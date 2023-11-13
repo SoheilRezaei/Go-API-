@@ -43,6 +43,6 @@ var (
 		writeError(w, err.Error(), http.StatusBadRequest)
 	}
 	InternalErrorHandler = func(w http.ResponseWriter) {
-		writeError(w, "An Unexpected Error Occurred.", http.StatusinternalServerError)
+		writeError(w, "An Unexpected Error Occurred.", http.StatusInternalServerError)
 	}
 )
